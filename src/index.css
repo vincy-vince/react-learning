@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(231, 229, 229);
+  padding: 30px;
+  border: 10px solid black;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.info-div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.meow-container {
+  background-color: white;
+  padding: 24px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 300px;
+}
+
+.overall-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+img {
+  border: none;
+  border-radius: 5px;
+  width: 295px;
+  height: 168px;
+}
+
+.heading {
+  background-image: linear-gradient(to right, rgb(252, 123, 144), pink, aqua);
+  text-align: center;
+  border: 3px dashed black;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
